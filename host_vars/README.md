@@ -25,6 +25,12 @@ To install [`ipfs-key`], with Go installed, run:
 $ go get github.com/whyrusleeping/ipfs-key
 ```
 
+Add to executable
+```console
+export GOPATH="$HOME/go"
+PATH="$GOPATH/bin:$PATH"
+```
+
 then generate a key-pair:
 
 ```console
